@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.carousel .carousel-control-prev { visibility: hidden; }
+.carousel .carousel-control-next { visibility: hidden; }
+.carousel:hover .carousel-control-prev { visibility: visible; }
+.carousel:hover .carousel-control-next { visibility: visible; }
